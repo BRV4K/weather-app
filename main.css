@@ -1,0 +1,237 @@
+
+
+.container {
+    margin: 70px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.container__header {
+    height: 90px;
+    background: #D5ECF9 no-repeat;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("https://phonoteka.org/uploads/posts/2021-03/1616527833_55-p-fon-dlya-prezentatsii-oblaka-57.png") repeat-y;
+    margin: 0 auto;
+    height: 100%;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+h3 {
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 0 auto;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.blocks {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 0 auto;
+}
+
+
+.app {
+    display: flex;
+}
+
+#add-button {
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.form {
+    width: 880px;
+    height: 480px;
+    background: rgba(200, 229, 248, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.block__yes {
+    background: linear-gradient(180deg, #9DC7F9 0%, rgba(157, 199, 249, 0) 100%);
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    padding-top: 16px;
+    margin: 0 auto;
+}
+
+.block__no {
+    background: linear-gradient(180deg, #3F5672 0%, rgba(63, 86, 114, 0) 100%);
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    padding-top: 16px;
+    margin: 0 auto;
+}
+
+.deg {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 61px;
+    color: #FFFFFF;
+    margin-left: 70px;
+}
+
+.params {
+    display: grid;
+    gap: 0;
+    grid-template-columns: auto;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    grid-template-areas:
+    'A C'
+    'B D';
+}
+
+.param-ws {
+    text-align: left;
+    grid-area: A;
+    margin-bottom: 20px;
+}
+
+.param-cc {
+    text-align: left;
+    grid-area: B;
+}
+
+.param-fl {
+    text-align: left;
+    grid-area: C;
+}
+
+.param-v {
+    text-align: left;
+    grid-area: D;
+}
+
+.param-name {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.param-value {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.image {
+    width: 64px;
+    height: 64px;
+    border-radius: 17px;
+    margin-right: 80px;
+}
+
+.temp-image {
+    display: flex;
+    margin-top: 13px;
+    justify-content: space-between;
+}
+
+.lat {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.lat span {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.lon {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.lon span {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.button{
+    text-align: right;
+    margin: 100px 20px 20px 20px;
+}
+
+.ok-button {
+    background: #C3E3F6;
+    border-radius: 20px;
+    width: 390px;
+    height: 84px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: black;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid #eee;
+    color: #fff;
+    background: transparent;
+    outline: none;
+    font-size: 19px;
+    padding: 5px;
+}
+
+#app {
+    display: none;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap" rel="stylesheet">
+    <link href='./main.css' rel="stylesheet">
+    <title>What’s it like out now?</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+        <header>
+            <div class="container__header">
+                <h1 class="header__title">What’s it like out now?</h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <form id="form">
+                    <div class="form">
+                        <h2>Enter your coordinates</h2>
+                        <div class="lat">
+                            <span class="lat">Latitude: </span>
+                            <input type="text" id="input-lat" class="input" placeholder="57.2439"/>
+                        </div>
+                        <div class="lon">
+                            <span class="lon">Longitude: </span>
+                            <input type="text" id="input-lon" class="input" placeholder="60.0839"/>
+                        </div>
+                        <div class="button" id="button">
+                            <button class="ok-button" id="ok-button" type="submit">
+                                <span>Show weather</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="app" id="app">
+                    <div class="blocks" id="blocks">
+
+                    </div>
+
+                    <div id="add-button">
+                        <img src="./img/add-button.png" alt="add button">
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <script src="./script.js"></script>
+</body>
+</html>
